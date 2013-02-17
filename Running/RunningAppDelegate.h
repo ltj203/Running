@@ -10,7 +10,9 @@
 
 @class RunningViewController;
 
-@interface RunningAppDelegate : UIResponder <UIApplicationDelegate>
+@interface RunningAppDelegate : UIResponder <UIApplicationDelegate>{
+    UIWindow *_window;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

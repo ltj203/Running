@@ -7,7 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AboutView.h"
+#import "SignUpView.h"
+#import "PhotosView.h"
+#import "View.h"
 
-@interface RunningViewController : UIViewController
+@interface RunningViewController : UIViewController{
+    UIView *mainView;
+    View *welcome_view;
+    PhotosView *photo_view;
+    AboutView *about_view;
+    SignUpView *signup_view;
+}
+
+-(void) changeView: (NSInteger) viewIndex;
+-(void) showAlert;
 
 @end

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE46E31D16CD1175000D6849 /* PhotosView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46E31C16CD1175000D6849 /* PhotosView.m */; };
+		CE46E32016CE6266000D6849 /* AboutView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46E31F16CE6266000D6849 /* AboutView.m */; };
+		CE46E32316CF223D000D6849 /* SignUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46E32216CF223D000D6849 /* SignUpView.m */; };
+		CE7181FD16CBC5200049FA11 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7181FC16CBC5200049FA11 /* View.m */; };
+		CEAD29CC16CFE4B100970F83 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAD29CB16CFE4B100970F83 /* Util.m */; };
 		CEF9474516CBB092009E2D5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF9474416CBB091009E2D5E /* UIKit.framework */; };
 		CEF9474716CBB092009E2D5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF9474616CBB092009E2D5E /* Foundation.framework */; };
 		CEF9474916CBB092009E2D5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF9474816CBB092009E2D5E /* CoreGraphics.framework */; };
@@ -18,9 +23,25 @@
 		CEF9475B16CBB092009E2D5E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF9475A16CBB092009E2D5E /* Default-568h@2x.png */; };
 		CEF9475E16CBB092009E2D5E /* RunningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF9475D16CBB092009E2D5E /* RunningViewController.m */; };
 		CEF9476116CBB092009E2D5E /* RunningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF9475F16CBB092009E2D5E /* RunningViewController.xib */; };
+		CEF9476D16CBB750009E2D5E /* form.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEF9476716CBB750009E2D5E /* form.jpg */; };
+		CEF9476E16CBB750009E2D5E /* racing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEF9476816CBB750009E2D5E /* racing.jpg */; };
+		CEF9476F16CBB750009E2D5E /* run_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEF9476916CBB750009E2D5E /* run_background.jpg */; };
+		CEF9477016CBB750009E2D5E /* run_main.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEF9476A16CBB750009E2D5E /* run_main.jpg */; };
+		CEF9477116CBB750009E2D5E /* shoes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEF9476B16CBB750009E2D5E /* shoes.jpg */; };
+		CEF9477216CBB750009E2D5E /* speed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEF9476C16CBB750009E2D5E /* speed.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE46E31B16CD1175000D6849 /* PhotosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosView.h; sourceTree = "<group>"; };
+		CE46E31C16CD1175000D6849 /* PhotosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosView.m; sourceTree = "<group>"; };
+		CE46E31E16CE6266000D6849 /* AboutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutView.h; sourceTree = "<group>"; };
+		CE46E31F16CE6266000D6849 /* AboutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutView.m; sourceTree = "<group>"; };
+		CE46E32116CF223D000D6849 /* SignUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpView.h; sourceTree = "<group>"; };
+		CE46E32216CF223D000D6849 /* SignUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpView.m; sourceTree = "<group>"; };
+		CE7181FB16CBC5200049FA11 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		CE7181FC16CBC5200049FA11 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		CEAD29CA16CFE4B100970F83 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		CEAD29CB16CFE4B100970F83 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
 		CEF9474116CBB091009E2D5E /* Running.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Running.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF9474416CBB091009E2D5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEF9474616CBB092009E2D5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +58,12 @@
 		CEF9475C16CBB092009E2D5E /* RunningViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunningViewController.h; sourceTree = "<group>"; };
 		CEF9475D16CBB092009E2D5E /* RunningViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunningViewController.m; sourceTree = "<group>"; };
 		CEF9476016CBB092009E2D5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RunningViewController.xib; sourceTree = "<group>"; };
+		CEF9476716CBB750009E2D5E /* form.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = form.jpg; sourceTree = "<group>"; };
+		CEF9476816CBB750009E2D5E /* racing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = racing.jpg; sourceTree = "<group>"; };
+		CEF9476916CBB750009E2D5E /* run_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = run_background.jpg; sourceTree = "<group>"; };
+		CEF9476A16CBB750009E2D5E /* run_main.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = run_main.jpg; sourceTree = "<group>"; };
+		CEF9476B16CBB750009E2D5E /* shoes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoes.jpg; sourceTree = "<group>"; };
+		CEF9476C16CBB750009E2D5E /* speed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = speed.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +110,26 @@
 		CEF9474A16CBB092009E2D5E /* Running */ = {
 			isa = PBXGroup;
 			children = (
+				CEF9476716CBB750009E2D5E /* form.jpg */,
+				CEF9476816CBB750009E2D5E /* racing.jpg */,
+				CEF9476916CBB750009E2D5E /* run_background.jpg */,
+				CEF9476A16CBB750009E2D5E /* run_main.jpg */,
+				CEF9476B16CBB750009E2D5E /* shoes.jpg */,
+				CEF9476C16CBB750009E2D5E /* speed.jpg */,
 				CEF9475316CBB092009E2D5E /* RunningAppDelegate.h */,
 				CEF9475416CBB092009E2D5E /* RunningAppDelegate.m */,
 				CEF9475C16CBB092009E2D5E /* RunningViewController.h */,
 				CEF9475D16CBB092009E2D5E /* RunningViewController.m */,
+				CE46E32116CF223D000D6849 /* SignUpView.h */,
+				CE46E32216CF223D000D6849 /* SignUpView.m */,
+				CE7181FB16CBC5200049FA11 /* View.h */,
+				CE7181FC16CBC5200049FA11 /* View.m */,
+				CEAD29CA16CFE4B100970F83 /* Util.h */,
+				CEAD29CB16CFE4B100970F83 /* Util.m */,
+				CE46E31E16CE6266000D6849 /* AboutView.h */,
+				CE46E31F16CE6266000D6849 /* AboutView.m */,
+				CE46E31B16CD1175000D6849 /* PhotosView.h */,
+				CE46E31C16CD1175000D6849 /* PhotosView.m */,
 				CEF9475F16CBB092009E2D5E /* RunningViewController.xib */,
 				CEF9474B16CBB092009E2D5E /* Supporting Files */,
 			);
@@ -164,6 +207,12 @@
 				CEF9475916CBB092009E2D5E /* Default@2x.png in Resources */,
 				CEF9475B16CBB092009E2D5E /* Default-568h@2x.png in Resources */,
 				CEF9476116CBB092009E2D5E /* RunningViewController.xib in Resources */,
+				CEF9476D16CBB750009E2D5E /* form.jpg in Resources */,
+				CEF9476E16CBB750009E2D5E /* racing.jpg in Resources */,
+				CEF9476F16CBB750009E2D5E /* run_background.jpg in Resources */,
+				CEF9477016CBB750009E2D5E /* run_main.jpg in Resources */,
+				CEF9477116CBB750009E2D5E /* shoes.jpg in Resources */,
+				CEF9477216CBB750009E2D5E /* speed.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +226,11 @@
 				CEF9475116CBB092009E2D5E /* main.m in Sources */,
 				CEF9475516CBB092009E2D5E /* RunningAppDelegate.m in Sources */,
 				CEF9475E16CBB092009E2D5E /* RunningViewController.m in Sources */,
+				CE7181FD16CBC5200049FA11 /* View.m in Sources */,
+				CE46E31D16CD1175000D6849 /* PhotosView.m in Sources */,
+				CE46E32016CE6266000D6849 /* AboutView.m in Sources */,
+				CE46E32316CF223D000D6849 /* SignUpView.m in Sources */,
+				CEAD29CC16CFE4B100970F83 /* Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +353,7 @@
 				CEF9476616CBB092009E2D5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

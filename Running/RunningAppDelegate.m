@@ -11,6 +11,7 @@
 #import "RunningViewController.h"
 
 @implementation RunningAppDelegate
+@synthesize window = _window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -20,6 +21,31 @@
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+-(void) touchUpInside: (id) sender {
+    if ([sender titleForState:UIControlStateNormal] == @"Photos") {
+        [self.viewController changeView:1];
+        return;
+    }
+    
+    if ([sender titleForState:UIControlStateNormal] == @"About") {
+        [self.viewController changeView:2];
+        return;
+    }
+    
+    if ([sender titleForState:UIControlStateNormal] == @"Sign Up") {
+        [self.viewController changeView:3];
+        return;
+    }
+    
+    if ([sender titleForState:UIControlStateNormal] == @"Join") {
+        [self.viewController showAlert];
+        return;
+    }
+    
+    [self.viewController changeView:0];
+   
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
